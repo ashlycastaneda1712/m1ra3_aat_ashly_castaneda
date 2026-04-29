@@ -1,0 +1,37 @@
+.fila1 {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+
+.mision,
+.vision {
+    margin: 20px 20px;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+}
+
+.fila2 {
+    display: flex;
+}
+
+.valores {
+    margin: 20px 20px;
+    height: 300px;
+    padding: 20px;
+    background-color: white;
+}
+
+.imagen {
+    margin: 20px 20px;
+    height: 300px;
+    padding: 20px;
+    background-color: white;
+}
+
+.mapa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
