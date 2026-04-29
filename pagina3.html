@@ -34,12 +34,36 @@
             </div>
         </div>
     </nav>
-
+    <main>
+        <main class="container-fluid">
+            <div class="col-5 offset-3">
+                <form class="border p-4 card shadow">
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre completo:</label>
+                        <input type="text" id="nombre" class="form-control">
+                    </div>
+                    <div class="row">
+                        <p class="form-label fw-bold">Últimas 3 notas obtenidas:</p>
+                        <div class="col"><input type="number" id="n1" class="form-control" placeholder="Nota 1"></div>
+                        <div class="col"><input type="number" id="n2" class="form-control" placeholder="Nota 2"></div>
+                        <div class="col"><input type="number" id="n3" class="form-control" placeholder="Nota 3"></div>
+                    </div>
+                    <div class="d-flex gap-2">
+                        <button type="submit" id="btnPromedio" name="btnPromedio"
+                            class="form-control btn btn-primary mt-3 w-100">Promedio</button>
+                        <button type="submit" id="btnLetras" name="btnLetras"
+                            class="form-control btn btn-primary mt-3 w-100">Caracteres del nombre</button>
+                    </div>
+                    <div id="resultado" class="bg-primary-subtle p-3 mt-3">Datos</div>
+                </form>
+            </div>
+        </main>
+    </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
     <script src="jquery/jquery-4.0.0.min.js"></script>
-    <script src="jquery/pagina.js"></script>
+    <script src="jquery/pagina3.js"></script>
 </body>
 
 </html>
