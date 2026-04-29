@@ -5,11 +5,6 @@ $(document).ready(function () {
         let mesesTrabajados = parseInt($('#mesesTrabajados').val()) || 0;
         let salarioPendiente = parseFloat($('#salarioPendiente').val()) || 0;
         let deudas = parseFloat($('#deudas').val()) || 0;
-
-        if (sueldoBase <= 0 || aniosTrabajados < 0 || mesesTrabajados < 0) {
-            alert('Por favor, ingrese valores válidos en los campos requeridos.');
-            return;
-        }
         let indemnizacionAnios = sueldoBase * aniosTrabajados;
         let bono14Proporcional = (sueldoBase / 12) * mesesTrabajados;
         let aguinaldoProporcional = (sueldoBase / 12) * mesesTrabajados;
