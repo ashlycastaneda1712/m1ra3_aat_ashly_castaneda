@@ -13,7 +13,6 @@ Este proyecto, desarrollado bajo la carpeta jQuery_act1, tiene como objetivo pri
 <p align="center">
   <img src="https://intecap.edu.gt/wp-content/uploads/2023/12/Logo-INTECAP-2023-300x135.png" alt="Logo INTECAP" width="250">
   <br>
-  <em>Instituto Técnico de Capacitación y Productividad (INTECAP)</em>
 </p>
 
 ## Tecnologías Utilizadas
